@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-keti') {
+orgs.newOrg('iot.keti', 'eclipse-keti') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
